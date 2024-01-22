@@ -1,0 +1,11 @@
+------ Grub config file
+* Grub menu entries for web preseed file, local preseed file, and default ubuntu file. 
+* Kernel paramaters for noprompt ubiquity preseed automation.
+
+------ preseed file 
+* hostname using serial number and a prefix
+* auto partition to normal and single partition type.
+* defualt user with sudo access and secondary account without sudo and normal user access.
+* non-free firmware, drivers and softwares enabled
+* auto updates during installation enabled.
+* Enable extras.ubuntu.com
