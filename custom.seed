@@ -72,7 +72,7 @@ d-i hw-detect/load_firmware boolean true
 # d-i passwd/root-password-crypted password [crypt(3) hash]
 
 # To create a admin user account.
-d-i passwd/user-fullname string preseed Admin
+d-i passwd/user-fullname string Preseed Admin
 d-i passwd/username string preseed-admin
 # Normal user's password, either in clear text
 #d-i passwd/user-password password insecure
